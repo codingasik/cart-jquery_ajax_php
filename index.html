@@ -1,102 +1,97 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <style>
-      body {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-      }
+<html lang="en">
 
-      .topnav {
-        overflow: hidden;
-        background-color: #333;
-      }
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Coding Asik - Cart</title>
+	<link rel="stylesheet" href="assets/plugin/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-      .topnav a {
-        float: left;
-        display: block;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-      }
+<body>
 
-      .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-      }
 
-      .topnav a.active {
-        background-color: #4caf50;
-        color: white;
-      }
+	<nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+		<div class="container">
+			<a class="navbar-brand" href="https://instagram.com/codingasik">
+				<h4>Coding Asik</h3>
+			</a>
+			<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="cart.html"><i class="fa fa-shopping-cart"></i> (0) </a>
+				</li>
+			</ul>
+		</div>
+	</nav>
 
-      .topnav .icon {
-        display: none;
-      }
+	<div class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 mt-2">
+					<div class="card">
+						<img class="card-img-top" src="assets/img/p1.jpg" alt="Produk 1">
+						<div class="card-body">
+							<h4 class="card-title">Sepatu 1</h4>
+							<p class="card-text">Rp 75.000</p>
+						</div>
+						<div class="card-footer">
+							<button class="btn btn-block btn-primary"> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3  mt-2">
+					<div class="card">
+						<img class="card-img-top" src="assets/img/p2.jpg" alt="Produk 1">
+						<div class="card-body">
+							<h4 class="card-title">Sepatu 2</h4>
+							<p class="card-text">Rp 65.000</p>
+						</div>
+						<div class="card-footer">
+							<button class="btn btn-block btn-primary"> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 mt-2">
+					<div class="card">
+						<img class="card-img-top" src="assets/img/p3.jpg" alt="Produk 1">
+						<div class="card-body">
+							<h4 class="card-title">Sepatu 3</h4>
+							<p class="card-text">Rp 55.000</p>
+						</div>
+						<div class="card-footer">
+							<button class="btn btn-block btn-primary"> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 mt-2">
+					<div class="card">
+						<img class="card-img-top" src="assets/img/p4.jpg" alt="Produk 1">
+						<div class="card-body">
+							<h4 class="card-title">Sepatu 4</h4>
+							<p class="card-text">Rp 45.000</p>
+						</div>
+						<div class="card-footer">
+							<button class="btn btn-block btn-primary"> Add To Cart</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-      @media screen and (max-width: 600px) {
-        .topnav a:not(:first-child) {
-          display: none;
-        }
-        .topnav a.icon {
-          float: right;
-          display: block;
-        }
-      }
+	<footer>
+		<p>Copyright <a href="http://instagram.com/codingasik">Coding Asik</a> 2021</p>
+	</footer>
 
-      @media screen and (max-width: 600px) {
-        .topnav.responsive {
-          position: relative;
-        }
-        .topnav.responsive .icon {
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
-        .topnav.responsive a {
-          float: none;
-          display: block;
-          text-align: left;
-        }
-      }
-    </style>
-  </head>
-  <body>
 
-    Hai
-    <div class="topnav" id="myTopnav">
-      <div>
-        <a href="#home" class="active">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
-    </div>
+	<script src="assets/js/jquery-3.6.0.min.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+</body>
 
-    <div style="padding-left: 16px">
-      <h2>Responsive Topnav Example</h2>
-      <p>Resize the browser window to see how it works.</p>
-    </div>
-
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-    </script>
-  </body>
 </html>
