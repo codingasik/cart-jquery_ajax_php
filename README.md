@@ -38,7 +38,7 @@ ____________
 
 Semoga bermanfaat yah dan kunjungi juga :
 
-Instagram : https://instagram.com/codingasik
+Instagram : https://instagram.com/codingasik  
 Facebook : https://www.facebook.com/codingasik/
 
 Kontak : codingasik2020@gmail.com
