@@ -1,6 +1,6 @@
 Ini adalah file projek untuk tutorial membuat single page application dengan Jquery dan php :  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qTtkr_PtHMU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+👉 https://youtu.be/qTtkr_PtHMU  
 
 Yang mana akan ada part 2 tentang membuat shopping cart dengan Jquery ajax dan php tentunya.
 ____________
